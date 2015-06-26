@@ -1,0 +1,29 @@
+/*Statement tests
+
+A:=5
+reAd B
+wrIte a /*outputs 5
+
+/*Expression tests
+
+write 5+4/2 /*outputs 7
+write 4/2+5 /*outputs 7
+write (5+4)/2 /*outputs 4.5
+write 4/(2+5) /*outputs about 0.57 + more decimals
+write (5+(4-2)/2)+4-5/*A WILD COMMENT APPEARS*//5 /*outputs 9
+
+write b+c /*outputs b
+write a*b /*outputs 5b
+
+/*Error tests
+
+write 1/0
+read write 5:=a 
+/*my program accepts read, expects an ID (received write instead, so it outputs an error),
+/*writes 5, then expects EOFSY but recieves :=, so it finishes
+d d e d := 2
+
+<(-_-)> <--apathetic kirby
+ d   b
+
+
